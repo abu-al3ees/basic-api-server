@@ -10,9 +10,9 @@ const clothesInstance = new Clothes();
 
 router.get('/clothes', getclothes);
 router.get('/clothes/:id', getOneclothes);
-router.post('/food', createclothes);
-router.put('/food/:id', updateclothes);
-router.delete('/food/:id', deleteclothes);
+router.post('/clothes', createclothes);
+router.put('/clothes/:id', updateclothes);
+router.delete('/clothes/:id', deleteclothes);
 
 
 function getclothes(req, res) {
